@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 80px 135px 130px 134px;
+    min-height: 100vh;
+    background: #FDF0E9;
+}
+ul{
+    display: flex;
+}
+li{
+   padding: 48px;
+    border: 1px solid #F3D1BF;
+width: 33.3%;
+   list-style-type: none;
+}
+.collage{
+    display: flex;
+    align-items: center;
+}
+.circle{
+    width: 64px;
+    height: 64px;
+    background-color: #EF6D58;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: var(--Text_Dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+
+font-family: Epilogue;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+h2{
+    color: var(--Text_Dark_Accent, #EF6D58);
+font-feature-settings: 'clig' off, 'liga' off;
+
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+h3{
+    color: var(--Text_Dark_Accent, #EF6D58);
+font-feature-settings: 'clig' off, 'liga' off;
+
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+@media screen and (max-width:768px){
+
+}
+    
